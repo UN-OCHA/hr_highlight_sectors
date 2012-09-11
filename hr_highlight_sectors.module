@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Humanitarianresponse Highlight Sectors feature.
+ */
+
+include_once 'hr_highlight_sectors.features.inc';

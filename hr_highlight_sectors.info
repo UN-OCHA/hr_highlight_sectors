@@ -1,0 +1,9 @@
+name = Humanitarianresponse Highlight Sectors
+description = Rename clusters to Sectors in Highlights
+core = 7.x
+package = HR Sectors
+dependencies[] = hr_sectors
+dependencies[] = humanitarianresponse_highlight
+features[features_api][] = api:1
+features[features_override_items][] = field.node-highlight-field_clusters
+features[features_overrides][] = field.node-highlight-field_clusters.field_instance|label
